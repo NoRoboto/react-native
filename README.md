@@ -1,53 +1,63 @@
--------------
 
-<p align="center"><img src="https://camo.githubusercontent.com/0a5cdea7053e94023fb22b5241aa5e774ce0df9e/68747470733a2f2f63646e2e7261776769742e636f6d2f616873616e617a696d2f776f726b73686f702f6d61737465722f696d672f72656163742d6e61746976652d6c6f676f2e737667" width="300"> <img src="https://forums.expo.io/uploads/expo/original/1X/1d48ac50860f7131a2c5ec14c5d3e61001adfdcd.png" width="180"></p>
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://www.aytech.ca/wp-content/uploads/2017/03/reactnative.png" alt="Markdownify" width="600"></a>
+  <br>
+	My React-Native Examples
+  <br>
+</h1>
 
-<p align="center">Hello Word Example - Buid Native apps</p>
+<h4 align="center"> A friendly repository aimed at people with no experience or deep knowledge like me </h4>
 
-[comment]: # (Resources)
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/img/markdownify.gif)
 
-[logo]: https://forums.expo.io/uploads/expo/original/1X/1d48ac50860f7131a2c5ec14c5d3e61001adfdcd.png
+## Key Features
 
-Pre-conditions
--------------
+* Exponent - Expo sdk will be used to make applications as easy and quick to develop
+  - LivePreview: see what your app look like in your smartphone.
+* Linter - A code format to get all everything in place
+* Opensource - of course!
+* IOS/Andoid Support
+* Linux friendly
 
-#### <i class="icon-list"></i> We need
+## How To Start
 
-> - [Nodejs](https://nodejs.org/en/)
-> - [Exponet CLI](https://expo.io/)
-> - [Exponet App](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en)
-> - (Optional) [Yarn](https://yarnpkg.com/en/)
+To clone and run some application of this repository, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-> **Note:**
+(Is highly recommended use **yarn** instead of npm, i will be used yarn in most commands of this repository)
 
-> - Expoclient app must be installed on our mobile device to view our app in "real time" without the need for any android emulator or ios,  also, you can install emulators like genimotion.
-> - You can use yarn instead of npm, the commands that appear in the repository will mostly be used with yarn
+```bash
+# Clone this repository
+$ git clone https://github.com/NoRoboto/react-native.git
 
-Get Started
--------------
-```sh
-$ exp init hello-word
-$ cd hello-word
-$ exp start
+# Go into some of the projects
+$ cd expo-hello-app/hello-word/
+
+# Install dependencies
+$ yarn
+
+# Run the app
+$ yarn start
 ```
 
-... And that's it!
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-> **Note:**  You need to create an account at expo, the above command will allow you to do this.
+## Credits
 
-#### <i class="icon-folder"></i> Project Structure
+This software uses code from several open source packages or Code Editor.
 
-Expo creates the following structure in our working folder, here a brief description of the most important files:
+- [Exponent](https://expo.io/)
+- [Node.js](https://nodejs.org/)
+- [React Native](https://facebook.github.io/react-native/)
+- [Atom](https://atom.io/)
+- [Markdownify](https://github.com/amitmerchant1990/electron-markdownify)
 
-| FILE NAME        | Description                  | More Information  |
- ----------------- | ---------------------------- | ------------------
-| package.json| Node ecosystem configuration file   | [Nodesource](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/) |
-| app.json | "Is your go-to place for configuring parts of your app that don’t belong in code"   | [Expo](https://docs.expo.io/versions/latest/guides/configuration.html)  |
-| App.js   | React native root file component | [Expo](https://docs.expo.io/versions/latest/guides/routing-and-navigation.html#reviewing-the-tab-template) |
-| .babelrc  | Babel API options file | [Babeljs](https://babeljs.io/docs/usage/babelrc/) |
-| .watchmanconfig | Watchman configuration file | [Watchman](https://facebook.github.io/watchman/) |
+## You may also like...
 
+- [React Native Tutorial](https://www.youtube.com/channel/UCAo4vDfOoLoJkOMNZFjl1mA) - A easy to understand video tutorial
+- [Redux Tutorial](https://learnredux.com/) - An excellent compilation that will help to deal with Redux
+- [React simple examples]( http://www.reactnativeexpress.com/) - Basic and practical examples of many of the react native components
 
-### Sources
-  [1]: https://expo.io/
-  [2]: https://facebook.github.io/react-native/
+#### License
+
+MIT
