@@ -9,7 +9,9 @@
 
 <h4 align="center"> A friendly repository aimed at people with no experience or deep knowledge like me </h4>
 
-![screenshot](https://github.com/NoRoboto/react-native/blob/master/expo-hello-app/src/github-react-native-front.gif)
+<p align="center">
+   <img src="https://github.com/NoRoboto/react-native/blob/master/expo-hello-app/src/github-react-native-front.gif">
+</p>
 
 ## Key Features
 
