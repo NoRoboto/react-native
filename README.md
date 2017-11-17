@@ -9,7 +9,7 @@
 
 <h4 align="center"> A friendly repository aimed at people with no experience or deep knowledge like me </h4>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/img/markdownify.gif)
+![screenshot](https://github.com/NoRoboto/react-native/blob/master/expo-hello-app/src/github-react-native-front.gif)
 
 ## Key Features
 
