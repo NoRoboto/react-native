@@ -1,5 +1,9 @@
 {
   "expo": {
-    "sdkVersion": "23.0.0"
+    "sdkVersion": "23.0.0",
+    "name": "text-to-speech",
+    "slug": "text2speech",
+    "description": "a simple text to speech app",
+    "version": "1.0.0"
   }
 }
